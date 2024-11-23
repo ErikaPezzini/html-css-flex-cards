@@ -1,0 +1,66 @@
+/*Css reset*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 40px;
+    color: #E53170;
+    text-align: center;
+}
+
+#description {
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 55px;
+}
+
+.people {
+    color: white;
+    padding-left: 15px;
+    line-height: 25px;
+}
+
+.jobs {
+    font-size: smaller;
+    font-weight:600;
+}
+
+a {
+    color: #61c4fd;
+}
+
+.names { 
+    font-size:larger; 
+    font-weight: bolder;
+}
+
+.conteiner-flex {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images {
+    width: 26%;
+}
+
+.box {
+    background-color: #0F0E17;
+    display: flex;
+    width: 400px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-bottom: 45px;
+}
